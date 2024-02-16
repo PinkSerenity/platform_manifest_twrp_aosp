@@ -11,6 +11,9 @@
     <remote name="github"
             fetch="https://github.com"/>
 
+    <remote name="PinkSerenity"
+            fetch="https://github.com/PinkSerenity"/>
+
     <!-- We need the TeamWin forks of these repos -->
     <remove-project name="platform/bootable/recovery"/>
 
@@ -73,7 +76,7 @@
     <project name="phhusson/vendor_lptools" path="external/lptools" remote="github" revision="master" />
 
     <!-- Include external Magisk repo for repack binaries -->
-    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-12.1"/>
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="PinkSerenity" revision="android-12.1"/>
 
     <!-- Include external/bash for bash support -->
     <project path="external/bash" name="android_external_bash" remote="LineageOS" revision="lineage-19.1"/>
